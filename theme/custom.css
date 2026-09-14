@@ -1,0 +1,223 @@
+/* 《可管理的衰老》阅读排版：偏纸书，不走抗衰营销风。 */
+
+:root {
+  --age-ink: #1c1915;
+  --age-muted: #5c574e;
+  --age-paper: #f4efe6;
+  --age-panel: #ebe4d6;
+  --age-line: #d4cbb8;
+  --age-accent: #2f5d4a;
+  --age-accent-2: #8a4b32;
+  --content-max-width: 46rem;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC",
+    "STSong", "SimSun", "Georgia", serif;
+  color: var(--age-ink);
+}
+
+.light {
+  --bg: var(--age-paper);
+  --fg: var(--age-ink);
+  --sidebar-bg: #efe8db;
+  --sidebar-fg: var(--age-ink);
+  --theme-popup-bg: #f7f2e8;
+  --theme-popup-border: var(--age-line);
+  --quote-bg: var(--age-panel);
+  --quote-border: var(--age-accent);
+  --table-alternate-bg: #efe8db;
+  --links: var(--age-accent);
+  --inline-code-color: var(--age-accent-2);
+}
+
+.content main {
+  max-width: var(--content-max-width);
+  padding-bottom: 4rem;
+}
+
+.content p,
+.content li {
+  line-height: 1.92;
+  letter-spacing: 0.01em;
+}
+
+.content p {
+  margin: 0.95em 0;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4 {
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  line-height: 1.35;
+}
+
+.content h1.menu-title,
+.menu-title {
+  font-family: "Source Han Serif SC", "Noto Serif CJK SC", serif;
+}
+
+.content h1 {
+  font-size: 2.05em;
+  border-bottom: 1px solid var(--age-line);
+  padding-bottom: 0.45em;
+  margin-top: 0.2em;
+}
+
+.content h2 {
+  font-size: 1.38em;
+  margin-top: 2em;
+  color: var(--age-accent);
+}
+
+.content h3 {
+  font-size: 1.12em;
+  margin-top: 1.6em;
+}
+
+.content blockquote {
+  border-left: 3px solid var(--age-accent);
+  background: var(--age-panel);
+  padding: 0.85em 1.1em;
+  border-radius: 0 8px 8px 0;
+}
+
+.content blockquote p {
+  text-align: left;
+}
+
+.content table {
+  font-size: 0.88em;
+  line-height: 1.65;
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.content th,
+.content td {
+  padding: 0.55em 0.65em;
+  vertical-align: top;
+}
+
+@media (max-width: 720px) {
+  .content table {
+    font-size: 0.8em;
+  }
+}
+
+.content thead th {
+  background: #e4ddd0;
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+}
+
+.content code {
+  font-family: "Iosevka", "JetBrains Mono", "SFMono-Regular", Menlo, Consolas,
+    monospace;
+}
+
+.content a {
+  text-underline-offset: 0.18em;
+}
+
+#sidebar .sidebar-scrollbox {
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
+    "Microsoft YaHei", sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.chapter li.chapter-item {
+  margin: 0.12em 0;
+}
+
+.nav-chapters {
+  color: var(--age-accent);
+}
+
+.header {
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+}
+
+.blockquote-tag-title {
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", "PingFang SC",
+    sans-serif;
+  font-size: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+}
+
+.blockquote-tag-title svg {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.blockquote-tag-note .blockquote-tag-title::after {
+  content: "说明";
+  font-size: 0.92rem;
+}
+
+.blockquote-tag-tip .blockquote-tag-title::after {
+  content: "提示";
+  font-size: 0.92rem;
+}
+
+.blockquote-tag-important .blockquote-tag-title::after {
+  content: "要点";
+  font-size: 0.92rem;
+}
+
+.blockquote-tag-warning .blockquote-tag-title::after {
+  content: "注意";
+  font-size: 0.92rem;
+}
+
+.blockquote-tag-caution .blockquote-tag-title::after {
+  content: "边界";
+  font-size: 0.92rem;
+}
+
+.title-kicker {
+  display: block;
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  color: var(--age-accent);
+  margin-bottom: 0.6em;
+}
+
+.title-deck {
+  font-size: 1.12rem;
+  color: var(--age-muted);
+  line-height: 1.75;
+  margin: 1.2em 0 2em;
+}
+
+.colophon {
+  margin-top: 3em;
+  padding-top: 1.2em;
+  border-top: 1px solid var(--age-line);
+  color: var(--age-muted);
+  font-size: 0.92em;
+}
+
+@media print {
+  .content p {
+    orphans: 3;
+    widows: 3;
+  }
+}
