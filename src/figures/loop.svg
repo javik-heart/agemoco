@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" role="img" aria-labelledby="t">
+  <title id="t">可检验闭环与失败分支</title>
+  <rect width="760" height="420" fill="#f4efe6"/>
+  <rect x="40" y="30" width="160" height="54" rx="6" fill="#ebe4d6" stroke="#2f5d4a"/>
+  <text x="120" y="52" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">穿戴发现</text>
+  <text x="120" y="70" text-anchor="middle" font-size="12" fill="#5c574e" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">速度变陡或冲击</text>
+  <rect x="230" y="30" width="160" height="54" rx="6" fill="#ebe4d6" stroke="#2f5d4a"/>
+  <text x="310" y="52" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">化验 / 影像</text>
+  <text x="310" y="70" text-anchor="middle" font-size="12" fill="#5c574e" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">哪个系统已经动了</text>
+  <rect x="420" y="30" width="160" height="54" rx="6" fill="#ebe4d6" stroke="#2f5d4a"/>
+  <text x="500" y="52" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">器官风洞</text>
+  <text x="500" y="70" text-anchor="middle" font-size="12" fill="#5c574e" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">薄点、恢复、益损</text>
+  <rect x="610" y="30" width="110" height="54" rx="6" fill="#ebe4d6" stroke="#2f5d4a"/>
+  <text x="665" y="52" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">医生</text>
+  <text x="665" y="70" text-anchor="middle" font-size="12" fill="#5c574e" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">1–2 个动作</text>
+  <path d="M200 57 H230" stroke="#2f5d4a" stroke-width="1.6"/>
+  <path d="M390 57 H420" stroke="#2f5d4a" stroke-width="1.6"/>
+  <path d="M580 57 H610" stroke="#2f5d4a" stroke-width="1.6"/>
+  <rect x="230" y="150" width="300" height="54" rx="6" fill="#ebe4d6" stroke="#2f5d4a"/>
+  <text x="380" y="172" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">八到十二周后回看</text>
+  <text x="380" y="190" text-anchor="middle" font-size="12" fill="#5c574e" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">穿戴 + 化验是否同向</text>
+  <path d="M665 84 V177 H530" stroke="#2f5d4a" stroke-width="1.6" fill="none"/>
+  <rect x="80" y="260" width="200" height="70" rx="6" fill="#e8f0ea" stroke="#2f5d4a"/>
+  <text x="180" y="290" text-anchor="middle" font-size="14" fill="#2f5d4a" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">回落 → 保持观察</text>
+  <rect x="360" y="250" width="340" height="130" rx="6" fill="#f6ece6" stroke="#8a4b32"/>
+  <text x="530" y="278" text-anchor="middle" font-size="14" fill="#8a4b32" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">未回落 → 失败分支</text>
+  <text x="530" y="304" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">停掉无效动作</text>
+  <text x="530" y="326" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">查依从 / 冲击窗口 / 换问题</text>
+  <text x="530" y="348" text-anchor="middle" font-size="13" fill="#1c1915" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">不要加项目把失败盖住</text>
+  <path d="M300 204 V260" stroke="#2f5d4a" stroke-width="1.6"/>
+  <path d="M430 204 V250" stroke="#8a4b32" stroke-width="1.6"/>
+</svg>

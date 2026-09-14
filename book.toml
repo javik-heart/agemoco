@@ -18,7 +18,7 @@ git-repository-icon = "fab-github"
 edit-url-template = "https://github.com/javik-heart/agemoco/edit/main/{path}"
 site-url = "/agemoco/"
 additional-css = ["theme/custom.css"]
-no-section-label = false
+no-section-label = true
 
 [output.html.print]
 enable = true

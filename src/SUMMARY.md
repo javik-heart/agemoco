@@ -3,6 +3,8 @@
 [扉页](title.md)
 [前言](preface.md)
 [如何阅读这本书](how-to-read.md)
+[一张总图](overview.md)
+[测量学：误差、批次与最小队列](measurement.md)
 
 ---
 
@@ -40,10 +42,11 @@
 - [第十八章 接成一个能检验的闭环](part5/ch18-closed-loop.md)
 - [第十九章 七件真正能落实的事](part5/ch19-seven-effects.md)
 - [第二十章 怎样才算改善](part5/ch20-success-criteria.md)
+- [一个人的十二周](part5/case.md)
 
 # 第六部 边界在哪里
 
-- [第二十一章 这条链做不到什么](part6/ch21-boundaries.md)
+- [第二十一章 这条链做不到什么（必读）](part6/ch21-boundaries.md)
 - [第二十二章 收束成一句能站得住的话](part6/ch22-thesis.md)
 
 ---
@@ -51,6 +54,6 @@
 # 附录
 
 - [术语表](appendix/glossary.md)
-- [证据线索与延伸阅读](appendix/reading.md)
+- [证据网：支持什么、不支持什么](appendix/reading.md)
 - [原始论证提纲](appendix/outline.md)
 - [关于本书](appendix/about.md)

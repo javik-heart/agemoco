@@ -166,28 +166,20 @@ body {
   flex-shrink: 0;
 }
 
-.blockquote-tag-note .blockquote-tag-title::after {
-  content: "说明";
-  font-size: 0.92rem;
-}
-
-.blockquote-tag-tip .blockquote-tag-title::after {
-  content: "提示";
-  font-size: 0.92rem;
-}
-
+.blockquote-tag-note .blockquote-tag-title::after,
+.blockquote-tag-tip .blockquote-tag-title::after,
 .blockquote-tag-important .blockquote-tag-title::after {
-  content: "要点";
+  content: "易误读";
   font-size: 0.92rem;
 }
 
 .blockquote-tag-warning .blockquote-tag-title::after {
-  content: "注意";
+  content: "易误读";
   font-size: 0.92rem;
 }
 
 .blockquote-tag-caution .blockquote-tag-title::after {
-  content: "边界";
+  content: "禁令";
   font-size: 0.92rem;
 }
 
@@ -215,9 +207,90 @@ body {
   font-size: 0.92em;
 }
 
+.figure {
+  margin: 1.6em 0 2em;
+  text-align: center;
+}
+
+.figure svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.figure-caption {
+  display: block;
+  margin-top: 0.6em;
+  font-size: 0.88em;
+  color: var(--age-muted);
+  text-align: center;
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+}
+
+.part-kicker {
+  display: block;
+  margin: 0 0 1.4em;
+  font-family: "Source Han Sans SC", "Noto Sans CJK SC", sans-serif;
+  font-size: 0.88rem;
+  letter-spacing: 0.06em;
+  color: var(--age-accent);
+}
+
+.report-compare {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8em;
+  margin: 1.2em 0;
+}
+
+@media (max-width: 720px) {
+  .report-compare {
+    grid-template-columns: 1fr;
+  }
+}
+
+.report-card {
+  border: 1px solid var(--age-line);
+  background: var(--age-panel);
+  padding: 0.9em 1em;
+  text-align: left;
+}
+
+.report-card h4 {
+  margin: 0 0 0.5em;
+  font-size: 1em;
+}
+
+.illegal {
+  border-color: #8a4b32;
+}
+
+.legal {
+  border-color: var(--age-accent);
+}
+
 @media print {
   .content p {
     orphans: 3;
     widows: 3;
+  }
+
+  #mdbook-help-container,
+  #mdbook-help-popup,
+  .mdbook-help-title,
+  #mdbook-help-overlay,
+  .menu-bar,
+  .nav-chapters,
+  #search-wrapper,
+  .searchbar-outer,
+  .sidebar,
+  #sidebar-toggle,
+  #mdbook-help-container kbd,
+  .mdbook-help-title + div {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    left: -9999px !important;
   }
 }

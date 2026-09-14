@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-labelledby="t">
+  <title id="t">底盘包络、实现轨迹与冲击台阶</title>
+  <rect width="720" height="320" fill="#f4efe6"/>
+  <line x1="70" y1="270" x2="680" y2="270" stroke="#5c574e" stroke-width="1.2"/>
+  <line x1="70" y1="270" x2="70" y2="30" stroke="#5c574e" stroke-width="1.2"/>
+  <text x="360" y="305" text-anchor="middle" fill="#5c574e" font-size="14" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">日历时间</text>
+  <text x="22" y="160" fill="#5c574e" font-size="14" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif" transform="rotate(-90 22 160)">功能负担</text>
+  <path d="M80 210 C 240 198, 400 188, 660 170" fill="none" stroke="#9aa392" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M80 208 C 200 200, 280 205, 340 188 S 430 210, 470 150 S 560 175, 660 155" fill="none" stroke="#2f5d4a" stroke-width="3"/>
+  <path d="M340 188 L 360 152 L 390 148 L 430 168" fill="none" stroke="#8a4b32" stroke-width="2.5"/>
+  <circle cx="360" cy="152" r="4" fill="#8a4b32"/>
+  <text x="92" y="50" fill="#9aa392" font-size="13" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">虚线：底盘包络（set-point）</text>
+  <text x="92" y="72" fill="#2f5d4a" font-size="13" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">实线：实现轨迹（pace）</text>
+  <text x="92" y="94" fill="#8a4b32" font-size="13" font-family="Noto Sans CJK SC, Source Han Sans SC, sans-serif">折线：冲击台阶（shock）</text>
+</svg>
